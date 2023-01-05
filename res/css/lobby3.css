@@ -1,0 +1,45 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+      background-image: url(../img/lobby3.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+  
+    #trader{
+     margin-left: 38%;
+     margin-top: 27%;
+     height: 170px;
+     width: auto;
+      position:fixed;
+  
+    }
+    #stats{
+    color: white;
+    position: absolute;
+    background-color: gray;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: -0.3%;
+  }
+  
+
+  
+  #lobbyback{
+    border: 2px solid white;
+    height: 100px;
+    width: auto;
+    position: fixed;
+    margin-top: 40%;
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  #CestaNaBoss3{
+   
+    height: 250px;
+    width: 200px;
+    position: fixed;
+    margin-top: 22%;
+    margin-left: 45%;
+  }

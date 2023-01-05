@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'Permanent Marker', cursive;
+    background-image: url(../img/hell2castle.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+  
+  html {
+    height: 100%;
+    margin: 0;
+    user-select:none;
+  }
+  #background {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    
+  }
+  * {user-select:none;}
+  #enemy {
+    
+    height: auto;
+    width: auto;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    left: 40%;
+    top: 52%;
+    
+  }
+  #text {
+    font-size: 60px;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    text-align: center;
+    color: white;
+    
+  }
+  #player {
+    
+    
+    position: fixed;
+    top: 73%;
+    margin-left: 5%;
+    left: 300px;
+    transition:.05s;
+    
+  }
+  
+  #playerhp {font-size:50px;
+  top:53%;
+  left:29%; 
+  position:absolute;
+  color: white;
+  
+  }
+  #enemyhp {font-size:50px;
+      top:45%;
+      left:68%;
+      position:absolute;
+      color: white;}
+  
+  #attack {
+      background-image: url("../img/blades.jpg");
+      height: auto;
+      width: auto;
+      position: absolute;
+  background-size:250px;
+  background-repeat: no-repeat;
+  left:40%;
+  top:90%;
+  font-size:50px;
+  color: white;
+  
+  }
+  
+  #exit {
+    
+    height:200px;
+    width:200px;
+    background-size:200px;
+    left:85%;
+    top:78%;
+    background-repeat:no-repeat;
+    position:absolute;
+    display:none;
+  }
+  #next {
+    
+    height:100px;
+    width:200px;
+    background-size:200px;
+    left:85%;
+    top:64%;
+    background-repeat:no-repeat;
+    position:absolute;
+    display:none;
+    border:4px solid white;
+  }

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+      background-image: url(../img/trader3bck.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+    #tabulka{
+      color: white;
+      position: absolute;
+    }
+  
+    #potion {
+      width: auto;
+      color:white;
+      padding-top:15%;
+      padding-left: 44%;
+      height:100px;
+      
+      
+    }
+  
+    #armor {
+      
+      color:white;
+      width: auto;
+      padding-left: 44%;
+      height: 100px;
+      
+    }
+  
+    #weapon {
+      color:white;
+      width: auto;
+      padding-left: 44%;
+      height: 100px;
+      
+    }
+  
+    #exit {
+      
+      height: 300px;
+      margin-top: -2.5%;
+      margin-left: 80%;
+      position: fixed;
+    }
+  
+    #stats {
+      margin-top: -8%;
+        color:white;
+      position: fixed;
+      background-color: gray;
+      border-radius: 20px;
+    }
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+    
+  
+    
+  
+    #potion {
+      width: auto;
+      color:white;
+      margin-top: 9%;
+      padding-left: 48%;
+      height:100px;
+      
+      
+    }
+  
+    #armor {
+      
+      color:white;
+      width: auto;
+      padding-left: 48%;
+      height: 100px;
+      
+    }
+  
+    #weapon {
+      color:white;
+      width: auto;
+      padding-left: 48%;
+      height: 100px;
+      
+    }
