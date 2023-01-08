@@ -40,7 +40,7 @@ const enemyAttackInterval = setInterval(() => {
   if (playerhpcount <= 0) {
     clearInterval(enemyAttackInterval);
     text.innerHTML = "Zemřel jsi";
-    window.location.href = "../lobby.html";
+    window.location.href = "/lobby.html";
   }
   if (enemyhpcount <= 0) {
     text.innerHTML = "You have defeated the enemy <br>+500 Gold";
